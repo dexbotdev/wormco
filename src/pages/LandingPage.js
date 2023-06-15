@@ -249,8 +249,7 @@ class LandingPage extends React.Component {
   }
 
   render() {
-    const { frequency, amplitude, animation } = this.state;
-    return (
+     return (
       <div className="app">
         <Grid style={{ 'width': '100%' }} gutter={5} gutterXs="md" gutterMd="xl" gutterXl={50} grow justify="center" align="center">
           <Grid.Col span={4} style={{ 'textAlign': 'center', 'verticalAlign': 'center', 'justifyItems': 'center' }}>
