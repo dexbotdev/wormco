@@ -1,7 +1,7 @@
 import React from 'react'
-import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram, IconGoGame } from '@tabler/icons-react';
+import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
 import { Grid } from '@mantine/core';
-import { Button, Group, ActionIcon, rem } from '@mantine/core';
+import { Group, ActionIcon } from '@mantine/core';
 import ChartComponent from '../components/ChartComponent';
 import './LandingPage.css'
 
