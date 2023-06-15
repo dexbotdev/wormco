@@ -27,8 +27,7 @@ h1 {
 
 h2 {
   margin-top: 30px;
-  text-transform:lowercase;
-  background: #fbfbfb;
+   background: #fbfbfb;
 background: radial-gradient(ellipse farthest-side at center center, #ffffff 32%, #27C8DA 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;

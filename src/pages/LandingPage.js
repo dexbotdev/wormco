@@ -6,7 +6,8 @@ import ChartComponent from '../components/ChartComponent';
 import './LandingPage.css'
 
 import { Chip } from '@mantine/core';
-
+import roadmapimg from '../assets/M.png'
+import waiting from '../assets/waiting-patiently.gif'
 const data = [
   { value: 62 },
   { value: 31 },
@@ -307,6 +308,12 @@ class LandingPage extends React.Component {
               </Group>
           </Chip.Group>
         </div>
+
+        <h2>RoadMap</h2>
+
+          <img src={roadmapimg} width="560px" alt="roadmap" />
+          <h2>   .</h2>
+          <img src={waiting} width="560px" alt="waiting" />
 
       </div>
     );
