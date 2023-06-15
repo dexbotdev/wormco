@@ -26,13 +26,14 @@ h1 {
 
 
 h2 {
-  margin-top: 30px;
-   background: #fbfbfb;
-background: radial-gradient(ellipse farthest-side at center center, #ffffff 32%, #27C8DA 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-  font-size: 6vw;
-  text-shadow: 0px 4px #a0d8cb;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background: #F73E7B;
+  background: radial-gradient(ellipse farthest-side at center center, #F73E7B 32%, #27C8DA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+  text-shadow: 0px 4px #ffffff;
 }
 
 button {
