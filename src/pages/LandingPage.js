@@ -7,6 +7,7 @@ import './LandingPage.css'
 
 import { Chip } from '@mantine/core';
 import roadmapimg from '../assets/M.png'
+import logo from '../assets/loogo_1.png'
 import waiting from '../assets/waiting-patiently.gif'
 const data = [
   { value: 62 },
@@ -253,7 +254,7 @@ class LandingPage extends React.Component {
       <div className="app">
         <Grid style={{ 'width': '100%' }} gutter={5} gutterXs="md" gutterMd="xl" gutterXl={50} grow justify="center" align="center">
           <Grid.Col span={4} style={{ 'textAlign': 'center', 'verticalAlign': 'center', 'justifyItems': 'center' }}>
-            <img src="/logo.png" width="180px" alt="logo"/>
+            <img src={logo} width="180px" alt="logo"/>
           </Grid.Col>
           <Grid.Col span={4}><h1 style={{ 'fontSize': '5em' }}>Wormco</h1></Grid.Col>
           <Grid.Col span={4}><Group spacing={10} position="center" noWrap>
