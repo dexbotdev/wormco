@@ -4,7 +4,6 @@ import * as ReactDOM from "react-dom/client";
 import { MantineProvider } from '@mantine/core';
 import {
   createBrowserRouter,
-  Link,
   Route,
   RouterProvider,
   Routes,
