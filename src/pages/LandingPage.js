@@ -310,9 +310,9 @@ class LandingPage extends React.Component {
 
         <h2>RoadMap</h2>
 
-          <img src={roadmapimg} width="560px" alt="roadmap" />
+          <img src={roadmapimg} width="100%" alt="roadmap" />
           <h2>   .</h2>
-          <img src={waiting} width="560px" alt="waiting" />
+          <img src={waiting} width="100%" alt="waiting" />
 
       </div>
     );
