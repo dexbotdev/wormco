@@ -291,28 +291,7 @@ class LandingPage extends React.Component {
           </button>
           <button onClick={() => this.setAnimation("typing")}>FOMO</button>
         </div>
-        {animation === "stressed" && (
-          <div className="sliders">
-            <input
-              type="range"
-              step="0.01"
-              name="frequency"
-              value={frequency}
-              onChange={this.setConfig}
-              min="0"
-              max="10"
-            />
-            <input
-              type="range"
-              step="0.01"
-              name="amplitude"
-              value={amplitude}
-              onChange={this.setConfig}
-              min="0.05"
-              max="2"
-            />
-          </div>
-        )}
+        
 
         <h2>Tokenomics</h2>
 
