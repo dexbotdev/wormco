@@ -16,12 +16,12 @@ html {
 h1 {
   margin: 0;
   text-transform: uppercase;
-  background: #F73E7B;
-  background: radial-gradient(ellipse farthest-side at center center, #F73E7B 32%, #27C8DA 100%);
+  background: #A1D7CB;
+  background: radial-gradient(ellipse farthest-side at center center, #A1D7CB 32%, #A1D7CB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 8vw;
-  text-shadow: 0px 4px #ffffff;
+  text-shadow: 0px 4px #A1D7CB;
 }
 
 
