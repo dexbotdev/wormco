@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram ,IconBrandTelegram} from '@tabler/icons-react';
+import { IconBrandTelegram} from '@tabler/icons-react';
 import { Grid } from '@mantine/core';
 import { Group, ActionIcon } from '@mantine/core';
 import ChartComponent from '../components/ChartComponent';
