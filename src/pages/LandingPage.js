@@ -306,8 +306,12 @@ class LandingPage extends React.Component {
 
           <img src={roadmapimg} width="100%" alt="roadmap" />
           <h2>   .</h2> 
+          <div className="controls">
+
           <h4>Wormco is memecoin representing the degens on ethereum that have dedicated their life to scanning etherscan and uniswap , punting every new token and living life in hopium that the next token they ape is going to do a 100x! Well guess what $WORM is finally giving life to these degen and a hope to have their first 100x on erc chain!</h4>
+          <br/>
           <h3>$WORM will forever be 0 tax, no team tokens, contract rennounced and 100k supply!That means we the degen $WORM will make it in WORMCO and emerge victorius and end this vicious cycle of poverty!</h3>
+          </div>
       </div>
     );
   }
