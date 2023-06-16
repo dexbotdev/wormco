@@ -34,6 +34,15 @@ h2 {
   font-size: 6vw;
  }
 
+ h3 {
+  margin-top: 10px;
+  margin: 5px auto;
+   background: #55ca73;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2vw;
+ }
+
 button {
   display: inline-block;
   padding: 10px;
@@ -94,8 +103,8 @@ button:hover {
 
 .controlsA {
   position: relative;
-  margin: 25px auto;
-  width: 50%;
+  margin: 3px auto;
+  width: 75%;
   left: 0;
   right: 0;
   padding: 0 20px;
