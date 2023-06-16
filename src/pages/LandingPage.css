@@ -28,13 +28,11 @@ h1 {
 h2 {
   margin-top: 10px;
   text-transform: uppercase;
-  background: #F73E7B;
-  background: radial-gradient(ellipse farthest-side at center center, #F73E7B 32%, #27C8DA 100%);
+  background: #A1D7CB;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4vw;
-  text-shadow: 0px 4px #ffffff;
-}
+ }
 
 button {
   display: inline-block;
