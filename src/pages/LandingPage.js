@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconBrandTelegram} from '@tabler/icons-react';
+import { IconBrandTelegram,IconBrandTwitter} from '@tabler/icons-react';
 import { Grid } from '@mantine/core';
 import { Group, ActionIcon } from '@mantine/core';
 import ChartComponent from '../components/ChartComponent';
@@ -259,6 +259,9 @@ class LandingPage extends React.Component {
           <Grid.Col span={4}><Group spacing={10} position="center" noWrap>
             <ActionIcon size="lg" component="a" href="https://t.me/wormcoeth">
               <IconBrandTelegram size="3rem" stroke={1.5} />
+            </ActionIcon> 
+            <ActionIcon size="lg" component="a" href="https://twitter.com/Wormcoeth">
+              <IconBrandTwitter size="3rem" stroke={1.5} />
             </ActionIcon> 
           </Group></Grid.Col>
         </Grid>
