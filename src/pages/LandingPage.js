@@ -308,11 +308,13 @@ class LandingPage extends React.Component {
         <h2>RoadMap</h2>
 
           <img src={roadmapimg} width="100%" alt="roadmap" />
-          <h2>   .</h2> 
+          <h2>About us</h2> 
           <div className="controlsA"> 
           <h3>$WORM will forever be 0 tax, no team tokens, contract rennounced and 100k supply!</h3>
           <h3>That means we the degen $WORM will make it in WORMCO and emerge victorius and end this vicious cycle of poverty!</h3>
           </div>
+          <h2>.</h2> 
+
       </div>
     );
   }
