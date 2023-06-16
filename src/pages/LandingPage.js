@@ -8,7 +8,6 @@ import './LandingPage.css'
 import { Chip } from '@mantine/core';
 import roadmapimg from '../assets/M.png'
 import logo from '../assets/loogo_1.png'
-import waiting from '../assets/waiting-patiently.gif'
 const data = [
   { value: 62 },
   { value: 31 },
