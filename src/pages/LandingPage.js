@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
+import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram ,IconBrandTelegram} from '@tabler/icons-react';
 import { Grid } from '@mantine/core';
 import { Group, ActionIcon } from '@mantine/core';
 import ChartComponent from '../components/ChartComponent';
@@ -257,15 +257,9 @@ class LandingPage extends React.Component {
           </Grid.Col>
           <Grid.Col span={4}><h1 style={{ 'fontSize': '5em' }}>Wormco</h1></Grid.Col>
           <Grid.Col span={4}><Group spacing={10} position="center" noWrap>
-            <ActionIcon size="lg">
-              <IconBrandTwitter size="3rem" stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="lg">
-              <IconBrandYoutube size="3rem" stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="lg">
-              <IconBrandInstagram size="3rem" stroke={1.5} />
-            </ActionIcon>
+            <ActionIcon size="lg" component="a" href="https://t.me/wormcoeth">
+              <IconBrandTelegram size="3rem" stroke={1.5} />
+            </ActionIcon> 
           </Group></Grid.Col>
         </Grid>
 
@@ -312,7 +306,8 @@ class LandingPage extends React.Component {
 
           <img src={roadmapimg} width="100%" alt="roadmap" />
           <h2>   .</h2> 
-
+          <h4>Wormco is memecoin representing the degens on ethereum that have dedicated their life to scanning etherscan and uniswap , punting every new token and living life in hopium that the next token they ape is going to do a 100x! Well guess what $WORM is finally giving life to these degen and a hope to have their first 100x on erc chain!</h4>
+          <h3>$WORM will forever be 0 tax, no team tokens, contract rennounced and 100k supply!That means we the degen $WORM will make it in WORMCO and emerge victorius and end this vicious cycle of poverty!</h3>
       </div>
     );
   }
